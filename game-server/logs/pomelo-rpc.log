@@ -1,0 +1,25 @@
+[2017-08-18 16:06:27.876] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 10 host: 127.0.0.1, port: 6050
+[2017-08-18 16:06:27.880] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 10 host: 127.0.0.1, port: 6050
+    at null.<anonymous> (/Users/heke/MyProj/GitHub/cityofpomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at Timer.listOnTimeout (timers.js:92:15)
+[2017-08-18 16:06:27.881] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: game-server-1, msg: {"namespace":"user","serverType":"game","service":"gameRemote","method":"kick","args":[{"playerId":2,"serverId":"connector-server-1"}]}, error code: 5
+[2017-08-18 16:06:30.444] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 11 host: 127.0.0.1, port: 6050
+[2017-08-18 16:06:30.445] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 11 host: 127.0.0.1, port: 6050
+    at null.<anonymous> (/Users/heke/MyProj/GitHub/cityofpomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at Timer.listOnTimeout (timers.js:92:15)
+[2017-08-18 16:06:30.445] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: game-server-1, msg: {"namespace":"user","serverType":"game","service":"gameRemote","method":"kick","args":[{"roomId":1,"playerId":1,"serverId":"connector-server-1"}]}, error code: 5
+[2017-08-18 17:56:23.616] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2017-08-18 17:56:23.618] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at null.<anonymous> (/Users/heke/MyProj/GitHub/cityofpomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at Timer.listOnTimeout (timers.js:92:15)
+[2017-08-18 17:56:23.618] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: game-server-1, msg: {"namespace":"user","serverType":"game","service":"gameRemote","method":"kick","args":[{"roomId":1,"playerId":3,"serverId":"connector-server-1"}]}, error code: 5
+[2017-08-18 17:56:39.595] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+[2017-08-18 17:56:39.596] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+    at null.<anonymous> (/Users/heke/MyProj/GitHub/cityofpomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at Timer.listOnTimeout (timers.js:92:15)
+[2017-08-18 17:56:39.596] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: game-server-1, msg: {"namespace":"user","serverType":"game","service":"gameRemote","method":"kick","args":[{"roomId":2,"playerId":3,"serverId":"connector-server-1"}]}, error code: 5
+[2017-08-18 17:58:06.002] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 9 host: 127.0.0.1, port: 6050
+[2017-08-18 17:58:06.002] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 9 host: 127.0.0.1, port: 6050
+    at null.<anonymous> (/Users/heke/MyProj/GitHub/cityofpomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at Timer.listOnTimeout (timers.js:92:15)
+[2017-08-18 17:58:06.003] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: game-server-1, msg: {"namespace":"user","serverType":"game","service":"gameRemote","method":"kick","args":[{"roomId":3,"playerId":3,"serverId":"connector-server-1"}]}, error code: 5
